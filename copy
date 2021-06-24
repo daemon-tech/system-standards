@@ -1,4 +1,4 @@
-alias ls='ls --color=always -rthla'
+alias ls='ls --color=always -a'
 
 function apt-updater {
 	apt-get update &&
@@ -6,7 +6,6 @@ function apt-updater {
 	apt-get autoremove -y &&
 	apt-get autoclean &&
 	apt-get clean &&
-	reboot
 	}
 
 #copypaste in .bash_aliases
