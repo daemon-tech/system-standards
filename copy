@@ -9,4 +9,4 @@ function apt-updater {
 	}
 
 #run apt-updater to maintain your system
-#./bashrc
+#./bashrc /home/
