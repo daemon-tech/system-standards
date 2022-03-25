@@ -1,6 +1,8 @@
 # Custom Aliases
 alias cls="clear"
 alias sup="sudo apt update && apt dist-upgrade && apt autoremove && apt autoclean"
+alias rebash='. ~/.bashrc'
+
 
 
 function apt-updater {
