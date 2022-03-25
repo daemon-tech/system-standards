@@ -9,7 +9,7 @@ alias cleanup="sudo apt autoremove && apt autoclean"
 # Custom ls Aliases
 alias ll='ls -l'
 alias la='ls -A'
-
+alias l='ls -CF'
 
 function apt-updater {
 	apt-get update &&
