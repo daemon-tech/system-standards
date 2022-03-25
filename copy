@@ -4,7 +4,9 @@ alias sup="sudo apt update && apt dist-upgrade && apt autoremove && apt autoclea
 alias rebash='. ~/.bashrc'
 alias pico="nano -wcAiL"
 alias nano="nano -wcAiL"
+alias cleanup="sudo apt autoremove && apt autoclean"
 
+# Custom ls Aliases
 
 
 function apt-updater {
