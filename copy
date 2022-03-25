@@ -8,5 +8,4 @@ function apt-updater {
 	apt-get clean &&
 	}
 
-#copypaste in .bash_aliases
 #run apt-updater to maintain your system
