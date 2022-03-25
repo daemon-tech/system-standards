@@ -7,6 +7,7 @@ alias nano="nano -wcAiL"
 alias cleanup="sudo apt autoremove && apt autoclean"
 
 # Custom ls Aliases
+alias ll='ls -l'
 
 
 function apt-updater {
