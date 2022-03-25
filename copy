@@ -1,5 +1,6 @@
 # Custom Aliases
 alias cls="clear"
+alias sup="sudo apt update && apt dist-upgrade && apt autoremove && apt autoclean"
 
 
 function apt-updater {
