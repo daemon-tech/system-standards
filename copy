@@ -1,7 +1,6 @@
 # Custom Aliases
 alias cls="clear"
 
-alias ls='ls --color=always -a'
 
 function apt-updater {
 	apt-get update &&
