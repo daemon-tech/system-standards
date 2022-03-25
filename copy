@@ -1,3 +1,6 @@
+# Custom Aliases
+alias cls="clear"
+
 alias ls='ls --color=always -a'
 
 function apt-updater {
@@ -8,6 +11,3 @@ function apt-updater {
 	apt-get clean &&
 	}
 
-#run apt-updater to maintain your system
-
-#./bashrc /home/ /root/
