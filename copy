@@ -22,6 +22,6 @@ function apt-updater {
 	apt-get clean &&
 	}
 
-#NVM Loader
+# NVM Loader
 export NVM_DIR="/home/daem0n/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
