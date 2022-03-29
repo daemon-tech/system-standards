@@ -1,5 +1,5 @@
 # Colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # Custom Aliases
 alias cls="clear"
@@ -7,6 +7,9 @@ alias sup="sudo apt update && apt dist-upgrade && apt autoremove && apt autoclea
 alias rebash='. ~/.bashrc'
 alias pico="nano -wcAiL"
 alias nano="nano -wcAiL"
+alias gadd="git add ."
+alias gccommit="git commit -m"
+alias gpush="git push origin main"
 alias cleanup="sudo apt autoremove && apt autoclean"
 
 # Custom ls Aliases
