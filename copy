@@ -17,6 +17,7 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
+# ~
 function apt-updater {
 	apt-get update &&
 	apt-get autoremove -y &&
